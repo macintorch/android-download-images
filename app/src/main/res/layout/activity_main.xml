@@ -18,14 +18,15 @@
         app:srcCompat="@drawable/nexus5x"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
-        android:layout_above="@+id/button"/>
+        android:layout_above="@+id/getImageButton"/>
 
     <Button
         android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:id="@+id/button"
+        android:id="@+id/getImageButton"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:onClick="getImage"/>
 </RelativeLayout>
